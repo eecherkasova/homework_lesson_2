@@ -5,8 +5,8 @@ from selene import be, have
 
 @pytest.fixture
 def window():
-    selene.browser.config.window_height = 300
-    selene.browser.config.window_width = 500
+    selene.browser.config.window_height = 350
+    selene.browser.config.window_width = 550
 
 
 
